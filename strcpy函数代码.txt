@@ -10,7 +10,7 @@ char* Strcpy(char* src)
 		exit(1);
 	while (src[i] != '\0')
 	{
-		*(p+i) = src[i];
+		*(p + i) = src[i];
 		i++;
 	}
 	p[i] = '\0';
